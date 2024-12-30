@@ -48,3 +48,4 @@ build/
 /example/android/settings.gradle
 /example/android/app/src/main/res/values/styles.xml
 /example/android/app/src/main/res/values-night/styles.xml
+android/local.properties
