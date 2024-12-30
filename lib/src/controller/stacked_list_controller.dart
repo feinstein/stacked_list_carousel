@@ -61,7 +61,7 @@ class StackedListController<T> {
     if (_isAnimating) return;
 
     if (withOutermostDiscardEffect) {
-      await outermostCardAnimationController.forward(from: 0);
+      outermostCardAnimationController.forward(from: 0);
       onCardSwiped?.call(
         items[realOutermostIndex],
         getSwipeDirection(offset: outermostCardOffset.value),
